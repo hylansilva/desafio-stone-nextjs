@@ -1,0 +1,54 @@
+div{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+
+  width: 168px;
+  height: 56px;
+
+  background: #FFFFFF;
+
+  border: 1.8px solid #D7E0EB;
+  border-radius: 4px;
+}
+
+.left
+{
+  margin-left: 12px;
+}
+
+.right
+{
+  margin-right: 12px;
+}
+
+.p-text{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #2E3742;
+
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  box-shadow: 0 6px 4px rgba(0,0,0,0.1);
+}
+
+input:focus{
+  outline: none;
+}

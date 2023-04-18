@@ -1,0 +1,27 @@
+header{
+  display: flex;
+  margin-top: 64px;
+  margin-left: 64px;
+}
+
+.text{
+  margin-left: 48px;
+  margin-top: 18px;
+}
+
+.text h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #45505E;
+}
+
+.text p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8C9CAD;
+}
