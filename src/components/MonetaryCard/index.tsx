@@ -1,5 +1,5 @@
 import React from 'react'
-import GoButton from '../button'
+import { GoButton } from '../button'
 
 import './style.css'
 import Radios from '../radios'

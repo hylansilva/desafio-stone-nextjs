@@ -7,6 +7,15 @@
   margin-top: 32px;
 }
 
+.form-wrapper p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 16px;
+  color:#2E3742;
+}
+
 input{
   color:  #008B57;
   font-style: normal;
@@ -23,13 +32,6 @@ label{
   margin-right: 16px;
 }
 
-p{
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  margin-bottom: 16px;
-}
 
 input[type="radio"]::before {
   content: '';
