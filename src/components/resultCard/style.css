@@ -1,0 +1,29 @@
+.title
+{
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #45505E
+}
+
+.result{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  color: #00AB63;
+}
+
+.result-text{
+  margin-bottom: 32px;
+}
+
+.result-specs{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  color: #6E7E90;
+}

@@ -10,13 +10,13 @@ export default function Radios() {
         <label>
           <input type="radio" name="gender" value="male" />
           <span>
-            Masculino
+            Dinheiro
           </span>
         </label>
         <label>
           <input type="radio" name="gender" value="female" />
           <span>
-            Feminino
+            Cartão
           </span>
         </label>
       </div>

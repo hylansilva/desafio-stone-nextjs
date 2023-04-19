@@ -1,32 +1,57 @@
-button{
-  box-sizing: border-box;
+.m-top{
+  margin-top: 38px;
+}
 
+
+.go-btn{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  width: 149px;
+  height: 56px;
+  border: 1px solid #008B57;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.back-btn{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 16px;
   gap: 16px;
 
-  width: 149px;
+  width: 120px;
   height: 56px;
 
-  border: 1px solid #008B57;
-  border-radius: 8px;
-  margin-top: 38px;
+  background-color: #fff;
+  box-shadow: 0 6px 4px rgba(0,0,0,0.1);
 
-  justify-content: center;
+  border: 1px solid #D7E0EB;
+  border-radius: 8px;
+
+  cursor: pointer;
+  margin-bottom: 32px;
 }
 
-button p{
+.go-btn p{
   text-align: center;
-
   font-style: normal;
-  font-weight: 600;
+  font-weight: bolder;
   font-size: 16px;
   line-height: 24px;
+  color: white;
 }
 
-button:disabled{
+.go-btn:disabled{
   background-color: #8C9CAD;
-  color: white;
+}
+
+.go-btn:enabled{
+  background-color: #00AB63;
+  box-shadow: 0 6px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
 }
